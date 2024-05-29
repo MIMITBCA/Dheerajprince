@@ -1,0 +1,47 @@
+/* Base styles for form elements */
+.form-group {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Style for the submit button */
+  .submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styles for error messages */
+  .error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  /* Styles for success message */
+  .success-message {
+    color: #008000;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
