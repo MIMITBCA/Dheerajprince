@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="CSS/cart.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+        <h1 class="site-title">Brothers Clothing Store</h1>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </div>
+</nav>
+    <main>
+        <div class="cart-container">
+            <h2>Cart</h2>
+            <div id="cart-items"></div>
+            <div id="total">Total: ₹<span id="total-amount">0</span></div>
+            <button id="clear-cart-btn">Clear Cart</button>
+            <button id="checkout-btn" disabled>Checkout</button>
+        </div>
+    </main>
+    <script src="JS/cart.js"></script>
+</body>
+</html>
